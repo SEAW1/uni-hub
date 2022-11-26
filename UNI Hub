@@ -5,7 +5,7 @@ local Window = Library.CreateLib("Seaw1 | Universal Hub | Many games", "DarkThem
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
-MainSection:NewButton("ZEN HUB/Blox fruit", "op blox fruit script", function()
+MainSection:NewButton("Blox fruit", "op blox fruit script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
 end)
 
@@ -43,7 +43,7 @@ MainSection:NewButton("Dragon Ball Rage", "dbg script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoDBRObfuscated.lua"))()
 end)
 
-MainSection:NewButton("Doors gui", "patched rn", function()
+MainSection:NewButton("Doors gui", "doors op script", function()
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({IntroText = "Doors GUI v1.2",Name = "Doors", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
 if game.PlaceId == 6516141723 then
@@ -490,11 +490,11 @@ OrionLib:Init()
 task.wait(2)
 end)
 
-MainSection:NewButton("Evade gui", "Evade script", function()
+MainSection:NewButton("Evade gui", "op Evade script", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
 end)
 
-MainSection:NewButton("FE SCRIPT", "sus", function()
+MainSection:NewButton("FE script", "op fe script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
 
@@ -502,7 +502,7 @@ MainSection:NewButton("Grand piece", "Grand piece script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/soucgpo/main/gpo32"))()
 end)
 
-MainSection:NewButton("murder mystery 2 script", "Op mm2 script", function()
+MainSection:NewButton("murder mystery 2", "Op mm2 script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 end)
 
@@ -3681,10 +3681,52 @@ MainSection:NewButton("Shindo Life", "op shindo life script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
-MainSection:NewButton("Vape Bedwars", "Op bedwars script", function()
+MainSection:NewButton("Bedwars", "Op bedwars script", function()
     (loadstring("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua\", true))()\nloadstring(game:HttpGet(\"https://raw.githubusercontent.com/Swoptt/Scripts/main/SMKEBDWARS\", true))()\n"))()
 end)
 
 MainSection:NewButton("Zombie Attack", "op zombie attack script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Zombie%20Attack.lua"))()
+end)
+
+--LOCAL PLAYER
+
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewSlider("WalkSpeed", "Speed!", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("JumpPower", "Jump!", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Reset to default", "revert walk speed and jump power", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+PlayerSection:NewButton("Chat Spoofer", "troll", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+end)
+
+PlayerSection:NewButton("Infinite Yield", "Fe commands", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+--Other
+local Other = Window:NewTab("Other")
+local OtherSection = Player:NewSection("Other")
+
+OtherSection:NewTextBox("Script made my Seaw1 on youtube", "Owner", function(txt)
+	print(txt)
+end)
+
+OtherSection:NewTextBox("Join discord down below for updates", "n", function(txt)
+	print(txt)
+end)
+
+OtherSection:NewTextBox("https://discord.gg/uZmBEhEspe", "discord server", function(txt)
+	print(txt)
 end)
