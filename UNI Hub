@@ -19,8 +19,8 @@ MainSection:NewButton("Arsenal/pc", "op arsenal script for pc", function()
 end)
 
 
-MainSection:NewButton("Arsenal/mobile", "op arsenal script for mobile can be used for paintball game too", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+MainSection:NewButton("Arsenal/mobile", "op arsenal script for mobile", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
 end)
 
 MainSection:NewButton("Bee Swarm Simulator", "op bss script", function()
