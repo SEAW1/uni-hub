@@ -3717,7 +3717,7 @@ end)
 
 --Other
 local Other = Window:NewTab("Other")
-local OtherSection = Player:NewSection("Other")
+local OtherSection = Other:NewSection("Other")
 
 OtherSection:NewTextBox("Script made my Seaw1 on youtube", "Owner", function(txt)
 	print(txt)
