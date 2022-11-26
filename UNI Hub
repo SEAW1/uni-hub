@@ -10,7 +10,7 @@ MainSection:NewButton("ZEN HUB/Blox fruit", "op blox fruit script", function()
 end)
 
 MainSection:NewButton("Ability wars", "op ability wars script", function()
-    loadstring(game:HttpGet(("https://pastebin.com/raw/PaWZGzyK%27"),true))()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/PaWZGzyK%27'),true))()
 end)
 
 
