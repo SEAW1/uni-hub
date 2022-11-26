@@ -2855,7 +2855,7 @@ function PlayerChatted(Message)
 					"Sub to CXZ NAME_R",
 					"WOW",
 					"wow",
-					"\(￣︶￣*\))"
+					"())"
 				}
 
 				while true do
@@ -3698,12 +3698,12 @@ MainSection:NewButton("Jailbreak", "Jailbreak op script", function()
 end)
 
 MainSection:NewButton("Combat Warriors", "combat warriors op script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt%22))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt%22"))()
 end)
 
-MainSection:NewButton("Breking Point", "Breaking pont op script", function()
-    getgenv().AutoFarm = true
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Breaking-Point%27))()
+MainSection:NewButton("Breaking Point", "Breaking pont op script", function()
+	getgenv().AutoFarm = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Breaking-Point%27'))()
 end)
 
 MainSection:NewButton("Ragdoll Engine", "Ragdoll Engine script", function()
