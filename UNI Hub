@@ -9,12 +9,12 @@ MainSection:NewButton("ZEN HUB/Blox fruit", "op blox fruit script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
 end)
 
-MainSection:NewButton("Ability wars", "might not work", function()
-    loadstring(game:HttpGet("https://package.idenlua.tk/Scripts/AbbWars.lua"))()
+MainSection:NewButton("Ability wars", "op ability wars script", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/PaWZGzyK%27),true))()
 end)
 
 
-MainSection:NewButton("ArsenalOP/pc", "op arsenal script for pc", function()
+MainSection:NewButton("Arsenal/pc", "op arsenal script for pc", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
 end)
 
@@ -27,7 +27,7 @@ MainSection:NewButton("Bee Swarm Simulator", "op bss script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
 end)
 
-MainSection:NewButton("Critical strike", "PATCHED", function()
+MainSection:NewButton("Critical Strike", "PATCHED", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ICEEDev/Epic-Roblox-Scripts/master/CrticalStrike.lua"))();
 end)
 
@@ -39,11 +39,11 @@ MainSection:NewButton("Da Hood", "da hood script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
 
-MainSection:NewButton("dragon ball rage", "dbg script", function()
+MainSection:NewButton("Dragon Ball Rage", "dbg script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoDBRObfuscated.lua"))()
 end)
 
-MainSection:NewButton("Doors gui", "Might be broken", function()
+MainSection:NewButton("Doors gui", "patched rn", function()
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({IntroText = "Doors GUI v1.2",Name = "Doors", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
 if game.PlaceId == 6516141723 then
@@ -3677,14 +3677,14 @@ end
 loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
 end)
 
-MainSection:NewButton("ShindoLife", "op shindo life script", function()
+MainSection:NewButton("Shindo Life", "op shindo life script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
-MainSection:NewButton("vape bedwars", "Op bedwars script", function()
+MainSection:NewButton("Vape Bedwars", "Op bedwars script", function()
     (loadstring("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua\", true))()\nloadstring(game:HttpGet(\"https://raw.githubusercontent.com/Swoptt/Scripts/main/SMKEBDWARS\", true))()\n"))()
 end)
 
-MainSection:NewButton("Zombie attack", "op zombie attack script", function()
+MainSection:NewButton("Zombie Attack", "op zombie attack script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Zombie%20Attack.lua"))()
 end)
