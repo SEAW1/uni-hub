@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Seaw1 | Universal Hub | Many games", "DarkTheme")
+local Window = Library.CreateLib("Seaw1 | Universal Hub | Discord:https://discord.gg/uZmBEhEspe", "DarkTheme")
 
 -- MAIN
 local Main = Window:NewTab("Main")
@@ -3719,14 +3719,10 @@ end)
 local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("Other")
 
-OtherSection:NewTextBox("Script made my Seaw1 on youtube", "Owner", function(txt)
-	print(txt)
+OtherSection:NewDropdown("INFO", "Owner and stuff", {"Script made by seaw1", "Discord User:seaw1#4452", "YT:seaw1"}, function(currentOption)
+    print(currentOption)
 end)
 
-OtherSection:NewTextBox("Join discord down below for updates", "n", function(txt)
-	print(txt)
-end)
-
-OtherSection:NewTextBox("https://discord.gg/uZmBEhEspe", "discord server", function(txt)
-	print(txt)
+MainSection:NewButton("Join discord for more updates", "JOIN DISCORD", function()
+    print("Clicked")
 end)
