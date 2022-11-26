@@ -28,7 +28,7 @@ MainSection:NewButton("Bee Swarm Simulator", "op bss script", function()
 end)
 
 MainSection:NewButton("Critical Strike", "PATCHED", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ICEEDev/Epic-Roblox-Scripts/master/CrticalStrike.lua"))();
+    print(hi)
 end)
 
 MainSection:NewButton("Da Hood selling Gui", "crostides selling gui", function()
