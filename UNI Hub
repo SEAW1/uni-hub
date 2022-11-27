@@ -4658,9 +4658,9 @@ end
 coroutine.resume(coroutine.create(SCRIPT_SUTP88_FAKESCRIPT))
 end)
 
---Credits
-local Credits = Window:NewTab("Credits")
-local CreditsSection = Credit:NewSection("Credits")
-CreditsSection:NewLabel("Made BY seaw1")
-CreditsSection:NewLabel("Discord: seaw1#4452")
-CreditsSection:NewLabel("Join Discord for more updates")
+--CREDIT
+local Credit = Window:NewTab("Credit")
+local CreditSection = Credit:NewSection("Credit")
+CreditSection:NewLabel("Made BY seaw1")
+CreditSection:NewLabel("Discord: seaw1#4452")
+CreditSection:NewLabel("Join Discord for more updates")
