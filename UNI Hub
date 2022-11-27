@@ -4660,7 +4660,7 @@ end)
 
 --Credits
 local Credits = Window:NewTab("Credits")
-local CreditSection = Credit:NewSection("Credits:")
-CreditSection:NewLabel("Made BY seaw1")
-CreditSection:NewLabel("Discord: seaw1#4452")
-CreditSection:NewLabel("Join Discord for more updates")
+local CreditsSection = Credit:NewSection("Credits")
+CreditsSection:NewLabel("Made BY seaw1")
+CreditsSection:NewLabel("Discord: seaw1#4452")
+CreditsSection:NewLabel("Join Discord for more updates")
