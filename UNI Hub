@@ -10,7 +10,7 @@ ScriptSection:NewButton("Blox Fruit", "op blox fruit script", function()
 end)
 
 ScriptSection:NewButton("Ability Wars", "op ability wars script", function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rblx_scripts/main/dizzy_hub/loader.lua%22)))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rblx_scripts/main/dizzy_hub/loader.lua%22"))
 end)
 
 
