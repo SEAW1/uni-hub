@@ -4660,7 +4660,17 @@ end)
 
 --CREDIT
 local Credit = Window:NewTab("Credit")
+
 local CreditSection = Credit:NewSection("Credit")
-CreditSection:NewLabel("Made BY seaw1")
-CreditSection:NewLabel("Discord: seaw1#4452")
-CreditSection:NewLabel("Join Discord for more updates")
+
+
+CreditSection:NewButton("Made BY seaw1", "Owner", function()
+    print("Clicked")
+end)
+CreditSection:NewButton("Discord user: seaw1#4452", "discord user", function()
+    print("Clicked")
+end)
+
+CreditSection:NewButton("Join discord for more updates", "discord group", function()
+    print("Clicked")
+end)
