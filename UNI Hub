@@ -495,7 +495,7 @@ task.wait(2)
 end)
 
 ScriptSection:NewButton("Evade Gui", "op Evade script", function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
 end)
 
 ScriptSection:NewButton("Grand Piece", "Grand piece script", function()
@@ -3698,7 +3698,7 @@ ScriptSection:NewButton("JailBreak", "Jailbreak op script", function()
 end)
 
 ScriptSection:NewButton("Combat Warriors", "combat warriors op script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt%22"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE"))()
 end)
 
 ScriptSection:NewButton("Breaking Point", "Breaking pont op script", function()
@@ -3715,7 +3715,11 @@ ScriptSection:NewButton("Pet Sim X", "Pet sim x script", function()
 end)
 
 ScriptSection:NewButton("BrookHaven", "BrookHaven script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+ScriptSection:NewButton("Snow Shoveling Simulator", "snow shoveling script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CrazorTheCat/thiscontainstuff/main/snowShovelingSimulatorGUI.lua"))()
 end)
 
 --LOCAL PLAYER
