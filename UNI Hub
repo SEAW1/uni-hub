@@ -4658,14 +4658,9 @@ end
 coroutine.resume(coroutine.create(SCRIPT_SUTP88_FAKESCRIPT))
 end)
 
---Other
-local Other = Window:NewTab("Other")
-local OtherSection = Other:NewSection("Other")
-
-OtherSection:NewDropdown("INFO", "Owner and stuff", {"Script made by seaw1", "Discord User:seaw1#4452", "YT:seaw1"}, function(currentOption)
-    print(currentOption)
-end)
-
-OtherSection:NewButton("Join discord for more updates", "JOIN DISCORD", function()
-    print("Clicked")
-end)
+--Credits
+local Credits = Window:NewTab("Credits")
+local CreditSection = Credit:NewSection("Credits:")
+local CreditSection = Credit:NewSection("Made by:Seaw1")
+local CreditSection = Credit:NewSection("Discord:seaw1#4452")
+local CreditSection = Credit:NewSection("Join discord for more updates!")
