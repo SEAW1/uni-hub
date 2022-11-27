@@ -1,9 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Seaw1 | Universal Hub | Discord:https://discord.gg/uZmBEhEspe", "Synapse")
+local Window = Library.CreateLib("Seaw1 | Universal Hub | Discord:https://discord.gg/uZmBEhEspe", "Ocean")
 
--- SCRIPTS
+-- SCRIPT
 local Script = Window:NewTab("Script")
-local ScriptSection = Main:NewSection("Script")
+local ScriptSection = Script:NewSection("Script")
 
 ScriptSection:NewButton("Blox fruit", "op blox fruit script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
