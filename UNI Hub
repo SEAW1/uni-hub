@@ -1,49 +1,49 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Seaw1 | Universal Hub | Discord:https://discord.gg/uZmBEhEspe", "DarkTheme")
 
--- MAIN
-local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Main")
+-- SCRIPTS
+local Script = Window:NewTab("Script")
+local ScriptSection = Main:NewSection("Script")
 
-MainSection:NewButton("Blox fruit", "op blox fruit script", function()
+ScriptSection:NewButton("Blox fruit", "op blox fruit script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
 end)
 
-MainSection:NewButton("Ability wars", "op ability wars script", function()
+ScriptSection:NewButton("Ability wars", "op ability wars script", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/PaWZGzyK%27'),true))()
 end)
 
 
-MainSection:NewButton("Arsenal/pc", "op arsenal script for pc", function()
+ScriptSection:NewButton("Arsenal/pc", "op arsenal script for pc", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
 end)
 
 
-MainSection:NewButton("Arsenal/mobile", "op arsenal script for mobile", function()
+ScriptSection:NewButton("Arsenal/mobile", "op arsenal script for mobile", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
 end)
 
-MainSection:NewButton("Bee Swarm Simulator", "op bss script", function()
+ScriptSection:NewButton("Bee Swarm Simulator", "op bss script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
 end)
 
-MainSection:NewButton("Critical Strike", "PATCHED", function()
+ScriptSection:NewButton("Critical Strike", "PATCHED", function()
     print(hi)
 end)
 
-MainSection:NewButton("Da Hood selling Gui", "crostides selling gui", function()
+ScriptSection:NewButton("Da Hood selling Gui", "crostides selling gui", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Crostide/cdhc/main/gui"))()
 end)
 
-MainSection:NewButton("Da Hood", "da hood script", function()
+ScriptSection:NewButton("Da Hood", "da hood script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
 
-MainSection:NewButton("Dragon Ball Rage", "dbg script", function()
+ScriptSection:NewButton("Dragon Ball Rage", "dbg script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoDBRObfuscated.lua"))()
 end)
 
-MainSection:NewButton("Doors gui", "doors op script", function()
+ScriptSection:NewButton("Doors gui", "doors op script", function()
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({IntroText = "Doors GUI v1.2",Name = "Doors", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
 if game.PlaceId == 6516141723 then
@@ -490,23 +490,23 @@ OrionLib:Init()
 task.wait(2)
 end)
 
-MainSection:NewButton("Evade gui", "op Evade script", function()
+ScriptSection:NewButton("Evade gui", "op Evade script", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
 end)
 
-MainSection:NewButton("FE script", "op fe script", function()
+ScriptSection:NewButton("FE script", "op fe script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
 
-MainSection:NewButton("Grand piece", "Grand piece script", function()
+ScriptSection:NewButton("Grand piece", "Grand piece script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/soucgpo/main/gpo32"))()
 end)
 
-MainSection:NewButton("murder mystery 2", "Op mm2 script", function()
+ScriptSection:NewButton("murder mystery 2", "Op mm2 script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 end)
 
-MainSection:NewButton("Prison life", "executes 2 good prison life scripts", function()
+ScriptSection:NewButton("Prison life", "executes 2 good prison life scripts", function()
     --(HINT: For big blocks of code like this, in the top right corner of this code box, there is a button that says "Raw". Click that and then it will bring you to a page that has only the code. Then use ctrl + a to copy the whole code. Yw)
 
 local CmdGui = Instance.new("ScreenGui")
@@ -3677,40 +3677,40 @@ end
 loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
 end)
 
-MainSection:NewButton("Shindo Life", "op shindo life script", function()
+ScriptSection:NewButton("Shindo Life", "op shindo life script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
-MainSection:NewButton("Bedwars", "Op bedwars script", function()
+ScriptSection:NewButton("Bedwars", "Op bedwars script", function()
     (loadstring("loadstring(game:HttpGet(\"https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua\", true))()\nloadstring(game:HttpGet(\"https://raw.githubusercontent.com/Swoptt/Scripts/main/SMKEBDWARS\", true))()\n"))()
 end)
 
-MainSection:NewButton("Zombie Attack", "op zombie attack script", function()
+ScriptSection:NewButton("Zombie Attack", "op zombie attack script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Zombie%20Attack.lua"))()
 end)
 
-MainSection:NewButton("Build A Boat For Treasure", "build a boat op script", function()
+ScriptSection:NewButton("Build A Boat For Treasure", "build a boat op script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 end)
 
-MainSection:NewButton("Jailbreak", "Jailbreak op script", function()
+ScriptSection:NewButton("Jailbreak", "Jailbreak op script", function()
     loadstring(game:GetObjects("rbxassetid://3762448307")[1].Source)()
 end)
 
-MainSection:NewButton("Combat Warriors", "combat warriors op script", function()
+ScriptSection:NewButton("Combat Warriors", "combat warriors op script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt%22"))()
 end)
 
-MainSection:NewButton("Breaking Point", "Breaking pont op script", function()
+ScriptSection:NewButton("Breaking Point", "Breaking pont op script", function()
 	getgenv().AutoFarm = true
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Breaking-Point%27'))()
 end)
 
-MainSection:NewButton("Ragdoll Engine", "Ragdoll Engine script", function()
+ScriptSection:NewButton("Ragdoll Engine", "Ragdoll Engine script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
 end)
 
-MainSection:NewButton("Pet Sim X", "Pet sim x script", function()
+ScriptSection:NewButton("Pet Sim X", "Pet sim x script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
 end)
 
