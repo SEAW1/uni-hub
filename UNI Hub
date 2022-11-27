@@ -5,11 +5,11 @@ local Window = Library.CreateLib("Seaw1 | Universal Hub | Discord:https://discor
 local Script = Window:NewTab("Script")
 local ScriptSection = Script:NewSection("Script")
 
-ScriptSection:NewButton("Blox fruit", "op blox fruit script", function()
+ScriptSection:NewButton("Blox Fruit", "op blox fruit script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
 end)
 
-ScriptSection:NewButton("Ability wars", "op ability wars script", function()
+ScriptSection:NewButton("Ability Wars", "op ability wars script", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/PaWZGzyK%27'),true))()
 end)
 
@@ -31,7 +31,7 @@ ScriptSection:NewButton("Critical Strike", "PATCHED", function()
     print(hi)
 end)
 
-ScriptSection:NewButton("Da Hood selling Gui", "crostides selling gui", function()
+ScriptSection:NewButton("Da Hood Selling Gui", "crostides selling gui", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Crostide/cdhc/main/gui"))()
 end)
 
@@ -43,7 +43,7 @@ ScriptSection:NewButton("Dragon Ball Rage", "dbg script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0mikami/Roblox-Scripts/main/AutoDBRObfuscated.lua"))()
 end)
 
-ScriptSection:NewButton("Doors gui", "doors op script", function()
+ScriptSection:NewButton("Doors Gui", "doors op script", function()
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({IntroText = "Doors GUI v1.2",Name = "Doors", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
 if game.PlaceId == 6516141723 then
@@ -490,7 +490,7 @@ OrionLib:Init()
 task.wait(2)
 end)
 
-ScriptSection:NewButton("Evade gui", "op Evade script", function()
+ScriptSection:NewButton("Evade Gui", "op Evade script", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
 end)
 
@@ -498,15 +498,15 @@ ScriptSection:NewButton("FE script", "op fe script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
 
-ScriptSection:NewButton("Grand piece", "Grand piece script", function()
+ScriptSection:NewButton("Grand Piece", "Grand piece script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/soucgpo/main/gpo32"))()
 end)
 
-ScriptSection:NewButton("murder mystery 2", "Op mm2 script", function()
+ScriptSection:NewButton("Murder Mystery 2", "Op mm2 script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 end)
 
-ScriptSection:NewButton("Prison life", "executes 2 good prison life scripts", function()
+ScriptSection:NewButton("Prison Life", "executes 2 good prison life scripts", function()
     --(HINT: For big blocks of code like this, in the top right corner of this code box, there is a button that says "Raw". Click that and then it will bring you to a page that has only the code. Then use ctrl + a to copy the whole code. Yw)
 
 local CmdGui = Instance.new("ScreenGui")
@@ -3693,7 +3693,7 @@ ScriptSection:NewButton("Build A Boat For Treasure", "build a boat op script", f
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 end)
 
-ScriptSection:NewButton("Jailbreak", "Jailbreak op script", function()
+ScriptSection:NewButton("JailBreak", "Jailbreak op script", function()
     loadstring(game:GetObjects("rbxassetid://3762448307")[1].Source)()
 end)
 
@@ -4661,6 +4661,6 @@ end)
 --Credits
 local Credits = Window:NewTab("Credits")
 local CreditSection = Credit:NewSection("Credits:")
-local CreditSection = Credit:NewSection("Made by:Seaw1")
-local CreditSection = Credit:NewSection("Discord:seaw1#4452")
-local CreditSection = Credit:NewSection("Join discord for more updates!")
+CreditSection:NewLabel("Made BY seaw1")
+CreditSection:NewLabel("Discord: seaw1#4452")
+CreditSection:NewLabel("Join Discord for more updates")
