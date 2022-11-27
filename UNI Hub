@@ -14,12 +14,12 @@ ScriptSection:NewButton("Ability Wars", "op ability wars script", function()
 end)
 
 
-ScriptSection:NewButton("Arsenal/pc", "op arsenal script for pc", function()
+ScriptSection:NewButton("Arsenal/PC", "op arsenal script for pc", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Arsenal"))()
 end)
 
 
-ScriptSection:NewButton("Arsenal/mobile", "op arsenal script for mobile", function()
+ScriptSection:NewButton("Arsenal/Mob", "op arsenal script for mobile", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
 end)
 
@@ -35,8 +35,12 @@ ScriptSection:NewButton("Da Hood Selling Gui", "crostides selling gui", function
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Crostide/cdhc/main/gui"))()
 end)
 
-ScriptSection:NewButton("Da Hood", "da hood script", function()
+ScriptSection:NewButton("Da Hood/PC", "da hood script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+ScriptSection:NewButton("Da Hood/Mob", "da hood script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
 end)
 
 ScriptSection:NewButton("Dragon Ball Rage", "dbg script", function()
@@ -3707,7 +3711,11 @@ ScriptSection:NewButton("Ragdoll Engine", "Ragdoll Engine script", function()
 end)
 
 ScriptSection:NewButton("Pet Sim X", "Pet sim x script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+end)
+
+ScriptSection:NewButton("BrookHaven", "BrookHaven script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7
 end)
 
 --LOCAL PLAYER
