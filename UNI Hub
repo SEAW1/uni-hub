@@ -142,7 +142,7 @@ end)
 
 
 ScriptSection:NewButton("Ability Wars", "op ability wars script", function()
-    loadstring(game:HttpGet("https://paste.ee/r/Wo5Kj%22))()
+    loadstring(game:HttpGet("https://paste.ee/r/Wo5Kj%22"))()
 end)
 
 
